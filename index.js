@@ -2,8 +2,20 @@ let addTask = document.querySelector("#addTask");
 let text = document.querySelector("#task");
 let content  = document.querySelector("#content")
 let secondRow = document.querySelectorAll(".row");
+let getName = document.getElementById("name");
+let count = 0;
 
+const getFullName = ()=>{
+    const name = prompt("Enter Your name");
+    if(name != null){
+        getName.innerText = "Hi "  + name;
+    }
+    else{
+        getName.innerText = "Hi "+ "John Doe"
+    }
 
+}
+getFullName();
 addTask.addEventListener('click',()=>{
     if(text.value === ""){
         alert("Add Task First");
