@@ -23,7 +23,11 @@ addTask.addEventListener('click',()=>{
         for(let i=0; i<delBtn.length; i++){
             delBtn[i].onclick = function(){
                 // console.log(this.parentElement)
-                this.parentElement.style.display = "none";
+                let elem = confirm("This will be deleted permnently");
+                if(elem){
+                    this.parentElement.style.display = "none";
+
+                }
             }
         }
         // checking whcich cimplete button is pressed.
