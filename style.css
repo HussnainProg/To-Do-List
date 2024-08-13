@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+}
+h1{
+    color:lightgoldenrodyellow;
+    /* margin:2% 0 3% 42%; */
+    text-align: center;
+}
+#takeInput{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:10%;
+
+}
+#takeInput label{
+    color:white;
+    font-size: medium;
+}
+#takeInput input{
+    width: 70%;
+    height: 2rem;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+#task{
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+#task p{
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    margin-bottom: 1rem;
+   
+}
+#task .btn{
+    position: relative;
+    left:40%;
+}
